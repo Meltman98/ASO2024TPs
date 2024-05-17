@@ -10,4 +10,4 @@
      Al ejecutar el archivo suma_resta con argumentos 10 veces me dio siempre el mismo resultado, 0, con un tiempo en promedio de 0.024 segundos. Ahora al descomentar cambia bastante, el tiempo para obtener un resultado pasa a ser de 7.3 segundos en promedio, se lanzan 2 hilos que suman y restan a la vez una cierta cantidad de veces a la misma variable "acumulador", al no haber restricciones o exclusiones, se genera lo que se conoce como race condition, lo cual produce que el resultado final sea totalmente impredecible ya que esta sujeto al tiempo de ejecución interno y a la velocidad de ejecución de cada tarea.
 2) Codigo ordenado y descifrado. [Punto 2 ejercicios](https://github.com/Meltman98/ASO2024TPs/tree/main/TP3)
      1. Imagen punto 2b.
-![imagen punto 2b](TP3/punto2b.png)
+     ![imagen punto 2b](TP3/punto2b.png)
